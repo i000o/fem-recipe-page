@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* BORDER BOX FIX  */ 
+
+/* Colors
+
+- White: hsl(0, 0%, 100%)
+
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%) BG COLOR OF BODY 
+
+- Brown 800: hsl(14, 45%, 36%) HEADING COLORS
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%)
+
+*/ 
+
+/* GLOBAL */ 
+
+
+h1, h4, h5, h6  {
+    font-family: 'young serif', serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'outfit', sans-serif;
+    font-weight: 400, 600, 700;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width */ 
+    height: auto;
+}
+
+section {
+    background-color: hsl(0, 0%, 100%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
