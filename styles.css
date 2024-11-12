@@ -4,13 +4,21 @@
 
 /* BORDER BOX FIX  */ 
 
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
 /* Colors
 
 - White: hsl(0, 0%, 100%)
 
 - Stone 100: hsl(30, 54%, 90%)
 - Stone 150: hsl(30, 18%, 87%)
-- Stone 600: hsl(30, 10%, 34%)
+- Stone 600: hsl(30, 10%, 34%) P FONT COLOR
 - Stone 900: hsl(24, 5%, 18%) BG COLOR OF BODY 
 
 - Brown 800: hsl(14, 45%, 36%) HEADING COLORS
@@ -22,30 +30,95 @@
 
 /* GLOBAL */ 
 
+a:link {
+    color: inherit; /* no blue default link color */ 
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit; /* no purple visited links */ 
+}
+
 
 h1, h4, h5, h6  {
     font-family: 'young serif', serif;
     font-weight: 400;
     color: hsl(14, 45%, 36%);
+    font-size: 1.5rem;
 }
+
+h1 {
+    color: #000000;
+    font-size: 1rem;
+}
+
+hr {
+    color: blue; /* CONTINUE HERE */ 
+}
+
+/* END OF GLOBAL STYLES */ 
 
 body {
     background-color: hsl(30, 54%, 90%);
     font-family: 'outfit', sans-serif;
     font-weight: 400, 600, 700;
+    line-height: 180%;
     display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width */ 
-    height: auto;
+    /* min-height: 100svh;
+    gap: 2rem;  */
+    color: hsl(30, 10%, 34%); 
 }
 
 section {
     background-color: hsl(0, 0%, 100%);
+    max-width: 40rem;
+    padding: 40px;
+    border-radius: 16px;
+    height: auto; /* makes the height accomodate the content */ 
+}
+
+img {
+    max-width: 100%; /* 100% of its container? */ 
+    border-radius: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+h2 {
+    font-size: .88rem;
+    font-weight: normal;
+    line-height: 160%;
+    margin-bottom: 30px;
+}
+
+aside {
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px 10px;
+    border-radius: 16px;
 }
 
 h3 {
     color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    padding: 0 10px;
 }
+
+aside ul {
+    /* I need to make the dots the same color as the heading */ 
+    line-height: 15px;
+}
+
+aside ul li {
+    padding-left: 15px;
+}
+
+
+
 
