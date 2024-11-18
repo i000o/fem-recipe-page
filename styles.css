@@ -53,7 +53,13 @@ h1 {
 }
 
 hr {
-    color: blue; /* CONTINUE HERE */ 
+    color: #000000; 
+    opacity: 20%;
+    margin: 10px;
+}
+
+p {
+    font-size: 0.9rem;
 }
 
 /* END OF GLOBAL STYLES */ 
@@ -98,6 +104,8 @@ h2 {
     margin-bottom: 30px;
 }
 
+/* PREPARATION TIME */ 
+
 aside {
     background-color: hsl(330, 100%, 98%);
     padding: 5px 10px;
@@ -110,13 +118,48 @@ h3 {
     padding: 0 10px;
 }
 
+ul.prep li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
 aside ul {
-    /* I need to make the dots the same color as the heading */ 
     line-height: 15px;
 }
 
-aside ul li {
+aside ul.prep li {
     padding-left: 15px;
+}
+
+/* INGREDIENTS */ 
+
+section ul.ingredients { 
+    line-height: 15px;
+    margin: 30px 0;
+    padding: 0 30px;
+}
+
+section ul.ingredients li {
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+section ul.ingredients li::marker {
+    color:hsl(14, 45%, 36%);
+}
+
+/* INSTRUCTIONS */ 
+ 
+h5 {
+    margin: 30px 10px;
+}
+
+section ol {
+    margin: 10px 10px;
+    padding: 10px 30px;
+}
+
+section ol li p {
+    line-height: 150%;
 }
 
 
