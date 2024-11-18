@@ -166,6 +166,61 @@ section ol li::marker {
 
 section ol li p {
     margin: 5px 0;
-    font-size: 0.85rem;
+    font-size: 0.87rem;
+}
+
+/* NUTRITION */ 
+
+h6 {
+    margin: 10px;
+    padding: 20px 0 10px 0;
+}
+
+p.nutrition {
+    margin: 10px;
+}
+
+table {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    border-spacing: 0;
+    font-size: 0.9rem;
+}
+
+th {
+    font-weight: normal;
+    padding: 5px 200px 5px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    font-weight: 600;
+    color:hsl(14, 45%, 36%);
+    padding: 5px 200px 5px 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+table p {
+    padding: 0; 
+    margin: 0; 
+}
+
+table th p {
+    padding-left: 20px;
+}
+
+/* FOOTER */ 
+
+footer {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin: 20px;
 }
 
