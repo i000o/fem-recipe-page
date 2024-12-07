@@ -31,14 +31,14 @@ I was a little overwhelmed with the amount of content for this challenge, but as
 
 I’m pleased with the outcome as I didn’t know I could make something as detailed as this at this point in my learning. I was a little overwhelmed with the prospect of styling for mobile as the design changes a bit. But once I got started, I moved through the media queries with relative ease.
 
-:jigsaw: Live Site URL: (https://i000o.github.io/fem-recipe-page/)
+:jigsaw: Live Site URL: (https://i000o.github.io/fem-recipe-page/)  
 :pencil2: Solution URL: (https://www.frontendmentor.io/solutions/recipe-page-desktop-and-mobile-bs0KbnEwYd)
 
 ## Feedback
 
 Again, I received positive feedback for my design eye in this case. I think the sizing is a little off, but I can amend this once I understand it better. Other than that, I haven’t had any significant critique of this solution but I will add it here if anyone contributes.
 
-**“Awesome solution.Everything is made exactly the way on the design.Great job!”**
+_“Awesome solution.Everything is made exactly the way on the design.Great job!”_
 
 Source: https://www.frontendmentor.io/solutions/recipe-page-desktop-and-mobile-bs0KbnEwYd
 
